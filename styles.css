@@ -1,0 +1,61 @@
+*{
+    font-family:'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell;
+}
+#block1{
+    display: flex;
+    font-weight:bold;
+    background-color: rgba(31, 20, 138, 0.87);
+    gap: 5 px;
+    justify-content: space-between;
+    
+}
+
+#logo{
+    color: white;
+    padding-left: 50px;
+    white-space: nowrap;
+
+}
+
+.links{
+    color: white;
+    font-size: small;
+    white-space:nowrap;
+}
+
+#linkblock{
+    display:flex;
+    padding-top: 20px;
+    padding-right: 50px;
+    padding-left: 60px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 300px;
+    gap: 8px;
+    flex-wrap: nowrap;
+}
+
+#block2{
+    display: inline-block;
+    color: rgb(205, 88, 88);
+}
+
+#block3{
+    display: inline-block;
+    background-color: rgba(80, 80, 80, 0.221);
+    color: rgb(205, 88, 88);
+}
+
+#block4{
+    display: inline-block;
+    color: rgb(205, 88, 88);
+}
+
+#mainblock{
+    display: flex;
+    gap: 0;
+    flex-direction: column; 
+    border: 0px
+    
+}
+
